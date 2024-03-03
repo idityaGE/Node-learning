@@ -108,8 +108,8 @@ class Person1 {
     }
 }
 
-let st1 = new Student("Aditya", 18) //this new object are called "instance"
-let st2 = new Student("Pradeep", 19)
+let st1 = new Person1("Aditya", 18) //this new object are called "instance"
+let st2 = new Person1("Pradeep", 19)
 console.log(st1);
 st1.talk();
 
